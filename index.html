@@ -1,16 +1,62 @@
 <html>
-  <head>
-    <title>Insane Chess</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h1>Insane-Chess by @Hardwaregore</h1>
-    <div class="topnav">
-  <a class="active" href="#HOME">Home</a>
-  <a href="#about">About</a>
-  <a href="#VARIENTS">Varients</a>
-  <a href="#contact">Contact</a>
-  <input type="text" placeholder="Search..">
-</div>
-  </body>
+<head>
+<title>Insane Chess</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+h1, h2, h3, button, p, a, li {
+  font-family: 'Luxurious Roman', cursive;
+}
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #f1f1f1;}
+</style>
 </head>
+<body>
+<nav>
+<div class="dropdown">
+<button class="dropbtn"><b>Insane Chess</b></button>
+<div class="dropdown-content">
+</div>
+</div>
+<div class="dropdown">
+<a href="index.html"><b>Home</b></a>
+<div class="dropdown-content">
+</div>
+</div>
+<div class="dropdown">
+<button class="dropbtn">Chess</button>
+<div class="dropdown-content">
+<a href="#">Standard</a>
+<a href="#">King Of The Hill</a>
+<a href="#">Crazyhouse</a>
+<a href="#">3 Check</a>
+</div>
+</div>
+</nav>
+</body>
+</html>
